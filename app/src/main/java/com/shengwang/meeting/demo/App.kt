@@ -1,6 +1,7 @@
 package com.shengwang.meeting.demo
 
 import android.app.Application
+import cn.shengwang.scene.FcrUISceneCreator
 import io.agora.agoracore.core2.utils.FcrSDKInitUtils
 
 /**
