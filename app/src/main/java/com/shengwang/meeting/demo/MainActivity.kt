@@ -107,7 +107,7 @@ class MainActivity : AppCompatActivity() {
         appId: String, roomToken: String, roomId: String, userId: String, username: String, userRole: FcrUserRole
     ) {
         val creatorConfig = FcrUISceneCreatorConfig(appId, userId)
-        val sceneConfig = FcrUISceneConfig(roomId, roomToken, username, userRole, "")
+        val sceneConfig = FcrUISceneConfig(roomId, null, roomToken, username, userRole, "")
         FcrUISceneCreator.init(creatorConfig)
         FcrUISceneCreator.launch(this, sceneConfig)
     }
