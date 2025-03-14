@@ -4,7 +4,6 @@ import cn.shengwang.http.bean.FcrSceneCreateRoomReq
 import cn.shengwang.http.bean.FcrSceneJoinRoomReq
 import io.agora.agoracore.core2.bean.FcrUserRole
 import io.agora.agoracore.core2.utils.FcrHashUtil
-import io.agora.core.common.http.app.AppHostUtil
 import io.agora.core.common.http.core.HttpIgnoreCer
 import io.agora.core.common.utils.GsonUtil
 import kotlinx.coroutines.CoroutineExceptionHandler
